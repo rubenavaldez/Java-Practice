@@ -1,2 +1,2 @@
-module Tutorial {
+module tutorial {
 }
