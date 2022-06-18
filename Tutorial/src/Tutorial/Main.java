@@ -22,9 +22,26 @@ public class Main {
 		// String multiple characters in double quotes  
 		String str ="tim";
 		
+//		assigning the value from another variable 
+		int tim = hello_world; 
 		
-		System.out.println(str);
+//		System.out.println(str);
+		
+		
+// Operations 
+		// declare a variable, not initialized 
+		int x;
+		x= 5;
+		
+		int y = 7;
+		int z =56;
+		int sum = x + y + z ;
+		int diff = x - y - z ;
+		int prod = x * y * z ;
 			
+		System.out.println(sum);
+		System.out.println(diff);
+		System.out.println(prod);
 		
 		
 	}
