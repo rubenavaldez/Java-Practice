@@ -38,10 +38,22 @@ public class Main {
 		int sum = x + y + z ;
 		int diff = x - y - z ;
 		int prod = x * y * z ;
-			
+		
+//		order of operations - left to right 
+		int oper = x * y / z ;
+		
+//		brackets will happen first 
+		int oper2 = (x * y) / z ;
+
+		
+//		division 
+		int quot = z / 7;
+				 
 		System.out.println(sum);
 		System.out.println(diff);
 		System.out.println(prod);
+		System.out.println(oper);
+		System.out.println(oper2);
 		
 		
 	}
